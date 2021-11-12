@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"> 
+    <title> cajero automatico pagina principal </title>
+    <link rel= "stylesheet" href="estilo pagina principal.css";>
+
+    <script>
+        function validarpassword(){
+            texto= prompt("para ver pagina ingresar numero de tarjeta");
+            while (texto!="1316") {
+                alert ("Numero de tarjeta incorrecto");
+                texto= prompt("para ver pagina ingresar numero de tarjeta");
+              
+                
+    
+            }
+            alert("Numero de tarjeta correcto") ;
+        }
+
+    </script>
+
+    
+
+<body>
+  <div id="particles-js"></div>
+  <div class="bg-7">
+        
+    <h1 class="t-stroke"></h1>  <br>
+
+</div> <br> <br> <br> <br> <br>
+    <script>validarpassword();</script>
+</body>
+
+<script>
+
+    function validarpassword(){
+        texto= prompt("para ver pagina ingrese el numero de PIN");
+        while (texto!="2021") {
+             alert("PIN invalido");
+             texto= prompt("para ver pagina ingrese el numero de PIN");  
+        }
+        alert("PIN valido") ;
+    }
+</script>
+</head>
+<body>
+    <script>validarpassword();</script>
+</body>
+
+
+<body>
+  
+    
+<center><p> Eliga una de las siguientes opciones para poder ver el saldo disponible en su tarjeta de credito </p></center>
+    
+  
+    
+     
+     <center><a href="quetzales 1.html" class="boton_1">Quetzales Q</a>  <br> <br></center>
+  
+  <style type="text/css">
+    .boton_1{
+      text-decoration: none;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: helvetica;
+      font-weight: 300;
+      font-size: 25px;
+      font-style: italic;
+      color: #080674;
+      background-color: #910909;
+      border-radius: 15px;
+      border: 3px double #160065;
+    }
+    .boton_1:hover{
+      opacity: 0.6;
+      text-decoration: none;
+    }
+  </style>
+
+ <center> <a href="dolar 1.html" class="boton_1">Dolar $</a> <br> <br> </center>
+  
+
+</style>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>  
+<script src="particulas.js"></script>
+</body>
+</html>

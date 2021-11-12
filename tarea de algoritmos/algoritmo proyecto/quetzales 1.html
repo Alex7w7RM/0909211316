@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"> 
+    <title> Tarjeta de credito con el saldo en Quetzales </title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel= "stylesheet" href="estilo 1.css";>
+    
+</head>
+
+    <body>
+      <div id="particles-js"></div>
+      <div class="bg-7">
+        
+            <h1 class="t-stroke"> </h1>  <br>
+        
+        </div> <br> <br> <br> <br> <br>
+         
+          <center><h4> Efectivos en Quetzales  </h4></center>
+           
+        
+
+        <form action="">
+              
+                 <center><p> Su saldo disponible en Quetzales es de Q8000</p> </center>
+              
+                
+                <center><p>Ingresar el saldo  que desea retirar</p> <br> </center>
+                
+              
+            
+
+            <center><input type="text" STYLE="border:double;background:rgb(174, 0, 255);color:rgb(255, 72, 0)" width="50px" height="50px" id="var3"></center>  <br> <br>
+  
+              <center><input type="button" value="confirmar retiro"  class = " boton_1" onclick="(  var1(1,2) );"></center>
+          
+            
+            
+            
+  
+  <style type="text/css">
+    .boton_1{
+      text-decoration: none;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: helvetica;
+      font-weight: 300;
+      font-size: 25px;
+      font-style: italic;
+      color: #080674;
+      background-color: #910909;
+      border-radius: 15px;
+      border: 3px double #160065;
+    }
+    .boton_1:hover{
+      opacity: 0.6;
+      text-decoration: none;
+    }
+  </style>
+  
+        </form>
+
+        <script>
+                
+                var var1 = function(var3){      
+                var var3 = parseFloat(document.getElementById("var3").value);  
+                var var2 = (8000);
+            
+                  
+                if( var3 < 8001){
+
+                    var resultado = var2 - var3 ;     
+                alert(resultado);
+                
+                }   else { alert ("saldo insuficiente")}                  
+            }
+        </script>
+        
+
+        <a href="Untitled-1.html" class="boton_1">pagina inicial</a>  <br> <br>
+  
+  <style type="text/css">
+    .boton_1{
+      text-decoration: none;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: helvetica;
+      font-weight: 300;
+      font-size: 25px;
+      font-style: italic;
+      color: #080674;
+      background-color: #910909;
+      border-radius: 15px;
+      border: 3px double #160065;
+    }
+    .boton_1:hover{
+      opacity: 0.6;
+      text-decoration: none;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>  
+  <script src="particulas.js"></script>
+    </body>
+</html>
